@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app" class="flex flex-col">
+      <div class="flex-none h-16 bg-gray-700 text-white p-2">
+        <div class="flex flex-row gap-4 items-center">
+          <div class="control">
+            <button
+              id="run"
+              class="btn w-12 h-12 rounded-full"
+              title="run / pause"
+            >
+              <span class="fa fa-play" aria-hidden="true"></span>
+            </button>
+          </div>
+          <div>
+            <button id="speedDec" class="btn btn-circle">
+              <span class="fa fa-backward" aria-hidden="true"></span>
+            </button>
+            <span id="speed"> </span>
+            <button id="speedInc" class="btn btn-circle">
+              <span class="fa fa-forward" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="viewer" class="flex-grow bg-gray-700 dark:bg-red-500">
+        <canvas id="fg" class="bg-black"></canvas>
+        <canvas id="bg" class="bg-transparent"></canvas>
+        <canvas id="loading" class="bg-transparent"></canvas>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
+<style>
+  .control {
+    /* border: 1px solid red; */
+  }
+
+  .triangle {
+    width: 0;
+    height: 0;
+    border: 150px solid transparent;
+    border-top: 0;
+    border-bottom: 300px solid red;
+  }
+</style>

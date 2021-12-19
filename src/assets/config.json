@@ -1,0 +1,201 @@
+{
+  "bodies": [
+    {
+      "name": "Mercury",
+      "diameter": 4866,
+      "color": "brown",
+      "spinsClockwise": true,
+      "telemetry": {
+        "a": 0.38709927,
+        "e": 0.20563593,
+        "i": 7.00497902,
+        "meanLongitude": 252.2503235,
+        "longitudeOfPerihelion": 77.45779628,
+        "longitudeOfAscendingNode": 48.33076593
+      },
+      "rates": {
+        "a": 3.7e-7,
+        "e": 0.00001906,
+        "i": -0.00594749,
+        "meanLongitude": 149472.67411175,
+        "longitudeOfPerihelion": 0.16047689,
+        "longitudeOfAscendingNode": -0.1253408
+      }
+    },
+    {
+      "name": "Venus",
+      "diameter": 12106,
+      "color": "orange",
+      "spinsClockwise": true,
+      "telemetry": {
+        "a": 0.72333566,
+        "e": 0.00677672,
+        "i": 3.39467605,
+        "meanLongitude": 181.9790995,
+        "longitudeOfPerihelion": 131.60246718,
+        "longitudeOfAscendingNode": 76.67984255
+      },
+      "rates": {
+        "a": 0.0000039,
+        "e": -0.00004107,
+        "i": -0.0007889,
+        "meanLongitude": 58517.81538729,
+        "longitudeOfPerihelion": 0.00268329,
+        "longitudeOfAscendingNode": -0.27769418
+      }
+    },
+    {
+      "name": "Earth",
+      "diameter": 12742,
+      "color": "blue",
+      "spinsClockwise": true,
+      "telemetry": {
+        "a": 1.00000261,
+        "e": 0.01671123,
+        "i": -0.00001531,
+        "meanLongitude": 100.46457166,
+        "longitudeOfPerihelion": 102.93768193,
+        "longitudeOfAscendingNode": 0
+      },
+      "rates": {
+        "a": 0.00000562,
+        "e": -0.00004392,
+        "i": -0.01294668,
+        "meanLongitude": 35999.37244981,
+        "longitudeOfPerihelion": 0.32327364,
+        "longitudeOfAscendingNode": 0
+      }
+    },
+    {
+      "name": "Mars",
+      "diameter": 6760,
+      "color": "#d2750c",
+      "spinsClockwise": true,
+      "telemetry": {
+        "a": 1.52371034,
+        "e": 0.0933941,
+        "i": 1.84969142,
+        "meanLongitude": -4.55343205,
+        "longitudeOfPerihelion": -23.94362959,
+        "longitudeOfAscendingNode": 49.55953891
+      },
+      "rates": {
+        "a": 0.00001847,
+        "e": 0.00007882,
+        "i": -0.00813131,
+        "meanLongitude": 19140.30268499,
+        "longitudeOfPerihelion": 0.44441088,
+        "longitudeOfAscendingNode": -0.29257343
+      }
+    },
+    {
+      "name": "Jupiter",
+      "diameter": 142984,
+      "color": "brown",
+      "spinsClockwise": true,
+      "scaleDivider": 4,
+      "telemetry": {
+        "a": 5.202887,
+        "e": 0.04838624,
+        "i": 1.30439695,
+        "meanLongitude": 34.39644051,
+        "longitudeOfPerihelion": 14.72847983,
+        "longitudeOfAscendingNode": 100.47390909
+      },
+      "rates": {
+        "a": -0.00011607,
+        "e": -0.00013253,
+        "i": -0.00183714,
+        "meanLongitude": 3034.74612775,
+        "longitudeOfPerihelion": 0.21252668,
+        "longitudeOfAscendingNode": 0.20469106
+      }
+    },
+    {
+      "name": "Saturn",
+      "diameter": 116438,
+      "color": "#c2a017",
+      "spinsClockwise": true,
+      "scaleDivider": 4,
+      "telemetry": {
+        "a": 9.53667594,
+        "e": 0.05386179,
+        "i": 2.48599187,
+        "meanLongitude": 49.95424423,
+        "longitudeOfPerihelion": 92.59887831,
+        "longitudeOfAscendingNode": 113.66242448
+      },
+      "rates": {
+        "a": -0.0012506,
+        "e": -0.00050991,
+        "i": 0.00193609,
+        "meanLongitude": 1222.49362201,
+        "longitudeOfPerihelion": -0.41897216,
+        "longitudeOfAscendingNode": -0.28867794
+      }
+    },
+    {
+      "name": "Uranus",
+      "diameter": 46940,
+      "color": "teal",
+      "spinsClockwise": true,
+      "scaleDivider": 4,
+      "telemetry": {
+        "a": 19.18916464,
+        "e": 0.04725744,
+        "i": 0.77263783,
+        "meanLongitude": 313.23810451,
+        "longitudeOfPerihelion": 170.9542763,
+        "longitudeOfAscendingNode": 74.01692503
+      },
+      "rates": {
+        "a": -0.00196176,
+        "e": -0.00004397,
+        "i": -0.00242939,
+        "meanLongitude": 428.48202785,
+        "longitudeOfPerihelion": 0.40805281,
+        "longitudeOfAscendingNode": 0.04240589
+      }
+    },
+    {
+      "name": "Neptune",
+      "diameter": 45432,
+      "color": "#0dabde",
+      "spinsClockwise": true,
+      "scaleDivider": 4,
+      "telemetry": {
+        "a": 30.06992276,
+        "e": 0.00859048,
+        "i": 1.77004347,
+        "meanLongitude": -55.12002969,
+        "longitudeOfPerihelion": 44.96476227,
+        "longitudeOfAscendingNode": 131.78422574
+      },
+      "rates": {
+        "a": 0.00026291,
+        "e": 0.00005105,
+        "i": 0.00035372,
+        "meanLongitude": 218.45945325,
+        "longitudeOfPerihelion": -0.32241464,
+        "longitudeOfAscendingNode": -0.00508664
+      }
+    }
+  ],
+  "drawOptions": {
+    "maximumBodySize": 45,
+    "minimumBodySize": 5
+  },
+  "initialSpeed": 1,
+  "scale": 0.0001,
+  "staticBodies": [
+    {
+      "color": "orange",
+      "diameter": 1392700,
+      "name": "Sun",
+      "spinsClockwise": false,
+      "scaleDivider": 30,
+      "drawScale": 0.1
+    }
+  ],
+  "targetFps": 20
+}
